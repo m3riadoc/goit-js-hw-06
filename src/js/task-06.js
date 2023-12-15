@@ -5,8 +5,8 @@ validationInput.addEventListener("blur", () => {
   const isValid = validationInput.value.length === parseInt(dataLength);
 
   if (isValid) {
-    validationInput.classList.add("valid");  
+    validationInput.classList.add("valid");
   } else {
-    validationInput.classList.add("invalid"); 
+    validationInput.classList.add("invalid");
   }
 });
