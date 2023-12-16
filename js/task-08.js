@@ -9,6 +9,8 @@ loginForm.addEventListener("submit", function (event) {
   if (emailInput.value === "" || passwordInput.value === "") {
     alert("Wypełnij wszystkie pola!");
   } else {
+    console.log("Email:", emailInput.value);
+    console.log("Password:", passwordInput.value);
     loginForm.reset();
   }
 });
